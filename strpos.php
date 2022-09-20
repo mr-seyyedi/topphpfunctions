@@ -1,4 +1,5 @@
 <?php
+// شمردن یک کاراکتر در یک متن
 $arr="hello worldo o o o o  o";
 $s=0;
 while(true){

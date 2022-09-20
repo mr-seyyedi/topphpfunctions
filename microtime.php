@@ -7,15 +7,7 @@ while($i <100){
 }
 $time_end=microtime(true);
 $time = $time_end - $time_start;
-echo $time;
+echo "<hr> time start:$time_start <hr>";
+echo "time end:$time_end <hr>";
+echo "time time:$time <hr>";
 
-
-// test_me(function(){
-//     $i=1;
-//     while($i <= 100000){
-//         $i++;
-//     }
-// });
-// test_me(function(){
-//     print "hey";
-// });
